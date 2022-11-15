@@ -1,0 +1,36 @@
+
+<html>
+ <head>
+ <title>Przykład nr tutaj wpisz odpowiedni nume </title>
+ <script language="JavaScript">
+ function okno_zamknij_Labudda() 
+ {
+ window.close()
+ }
+ function WinOpen_Labudda1() 
+ {
+window.open("graf1.html","okienko1","toolbar=no,directories=no,menubar=no,height=200,width=150,top=450,left=70");
+ }
+  function WinOpen_Labudda2() 
+ {
+window.open("graf2.html","okienko2","toolbar=no,directories=no,menubar=no,height=200,width=150,top=300,left=400");
+ }
+ function WinOpen_Labudda3() 
+ {
+window.open("graf3.html","okienko4","toolbar=no,directories=no,menubar=no,height=200,width=150,top=150,left=450");
+ }
+  function WinOpen_Labudda4() 
+ {
+window.open("graf4.html","okienko5","toolbar=no,directories=no,menubar=no,height=200,width=150,top=0,left=600");
+ }
+ </script>
+ </head>
+<body>
+ <form>
+ <input type="button" name="przycisk" value="grafika1" onclick="WinOpen_Labudda1(' ')">
+ <input type="button" name="przycisk" value="grafika2" onclick="WinOpen_Labudda2(' ')">
+ <input type="button" name="przycisk" value="grafika3" onclick="WinOpen_Labudda3(' ')">
+ <input type="button" name="przycisk" value="grafika4" onclick="WinOpen_Labudda4(' ')">
+ <input type="button" value="zamknij okno" onclick="okno_zamknij_Labudda()"/>
+ </form>
+</body>
